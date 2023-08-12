@@ -4,9 +4,9 @@ this project is a smaple of springboot application that can do read and write fo
 * you need to have jdk installed
 * you need to have maven installed
 ## Exploring the Rest APIs
-http://localhost:8080/excel/import-excel
-http://localhost:8080/excel
-http://localhost:8080/excel
-http://localhost:8080/excel --->post
+http://localhost:8080/excel/import-excel  
+http://localhost:8080/excel  
+http://localhost:8080/excel  
+http://localhost:8080/excel --->post  
 
 
