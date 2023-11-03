@@ -14,6 +14,10 @@ import java.util.List;
 @RestController
 @RequestMapping("/excel")
 public class ReadAndWriteExcelFileController {
+    @GetMapping("/t")
+    public ResponseEntity responseEntity(@RequestParam String param,@RequestParam String adds){
+        return ResponseEntity.ok("ok");
+    }
     @Autowired
     ReadAndWriteExcelFileService readAndWriteExcelFileService;
     @RequestMapping(value = "/import-excel", method = RequestMethod.POST)
